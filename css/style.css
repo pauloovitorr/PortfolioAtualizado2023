@@ -208,8 +208,15 @@ main {
     border: 2px solid;
     border-image: linear-gradient(130deg, rgb(1, 37, 3) 60%, rgb(110, 235, 127));
     border-image-slice: 1;
-    box-shadow: -12px 12px 10px 2px black;
+    box-shadow: -12px 12px 10px 3px black;
     border-radius: 10px;
+    transition: all .8s;
+}
+
+.imagens img:hover{
+    border: 2px solid;
+    border-image: linear-gradient(180deg, rgb(110, 235, 127) 10%,rgb(1, 37, 3));
+    border-image-slice: 1;
 }
 
 .iconeTec {
@@ -230,6 +237,12 @@ main {
 
 .inconeTec_img img{
     border-radius: 8px;
+    transition: .5s;
+}
+
+.inconeTec_img img:hover {
+    transform: rotateY(360deg);
+    
 }
 
 .inconeTec_text{
@@ -258,6 +271,7 @@ section {
     transition: all 1.5s;
     transform: translateX(-100%);
 }
+
 
 .show {
     opacity: 1;
