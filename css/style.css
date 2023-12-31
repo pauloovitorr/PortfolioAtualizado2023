@@ -221,7 +221,6 @@ main {
 
 .iconeTec {
     width: 95%;
-    height: 200px;
     margin: 0 auto;
     border: 2px solid rgb(11, 245, 23);
     border-radius: 5px;
@@ -232,7 +231,7 @@ main {
 }
 
 .inconeTec_img{
-    width: 20%;
+    width: 15%;
     text-align: center;
 }
 
@@ -247,7 +246,7 @@ main {
 }
 
 .inconeTec_text{
-    width: 75%;
+    width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
@@ -276,6 +275,7 @@ section {
     opacity: 0;
     transition: all 1.5s;
     transform: translateX(-100%);
+    
 }
 
 
@@ -296,3 +296,4 @@ section {
 .estudo img {
     width: 95px;
 }
+
