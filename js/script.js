@@ -34,19 +34,19 @@ if(cont<=1){
 }
 
 // Animação 
-let divsEstudo = document.querySelectorAll('.hidden')
+// let divsEstudo = document.querySelectorAll('.hidden')
 
-const elementes = new IntersectionObserver((elemento)=>{
-   elemento.forEach((entry)=>{
-        if(entry.isIntersecting){
-            entry.target.classList.add('show')
-        }
-        // else{
-        //     entry.target.classList.remove('show')
-        // }
-   })
-})
+// const elementes = new IntersectionObserver((elemento)=>{
+//    elemento.forEach((entry)=>{
+//         if(entry.isIntersecting){
+//             entry.target.classList.add('show')
+//         }
+//         // else{
+//         //     entry.target.classList.remove('show')
+//         // }
+//    })
+// })
 
-divsEstudo.forEach((e)=>{
-    elementes.observe(e)
-})
+// divsEstudo.forEach((e)=>{
+//     elementes.observe(e)
+// })

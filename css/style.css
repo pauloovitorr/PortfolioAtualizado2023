@@ -1,6 +1,10 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-    padding: 0px;
-    margin: 0px;
     box-sizing: border-box;
     background-image: linear-gradient(to right, rgb(17, 17, 17), #05434b, #171717);
 }
@@ -310,3 +314,61 @@ section {
     text-align: center;
     font-size: 30px;
 }
+
+
+
+
+/* Carrosel */
+
+
+.container_carrosel{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.entre_div{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    perspective: 1000px;
+    margin-top: 10%;
+    border: 2px solid rgb(187, 255, 0);
+}
+
+.div_carrosel{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    border: 2px solid rgb(0, 204, 255);
+}
+
+.div_carrosel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.div_carrosel figure{
+    width: 100%;
+    height: 185px;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.div_carrosel figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(300px);
+}.div_carrosel figure:nth-child(2){
+    transform: rotateY(40deg) translateZ(300px);
+}.div_carrosel figure:nth-child(3){
+    transform: rotateY(80deg) translateZ(300px);
+}.div_carrosel figure:nth-child(4){
+    transform: rotateY(120deg) translateZ(300px);
+}.div_carrosel figure:nth-child(5){
+    transform: rotateY(160deg) translateZ(300px);
+}.div_carrosel figure:nth-child(6){
+    transform: rotateY(200deg) translateZ(300px);
+}
+
+
