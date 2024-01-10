@@ -79,7 +79,7 @@ main {
 }
 
 .texto {
-    width: 45%;
+    width: 60%;
     height: 500px;
     margin-top: 20px;
     padding: 5px;
@@ -201,10 +201,11 @@ main {
 .imagens {
     width: 45%;
     height: 530px;
-    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
     color: white;
-    text-align: right;
-
+    text-align: center;
 }
 
 .imagens img {
