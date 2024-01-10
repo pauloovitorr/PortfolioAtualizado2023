@@ -329,7 +329,7 @@ section {
 }
 
 .entre_div{
-    width: 400px;
+    width: 190px;
     margin: 0 auto;
     position: relative;
     perspective: 1000px;
@@ -342,6 +342,8 @@ section {
     display: flex;
     position: absolute;
     border: 2px solid rgb(0, 204, 255);
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d;
 }
 
 .div_carrosel:hover{
@@ -358,17 +360,24 @@ section {
 
 
 .div_carrosel figure:nth-child(1){
-    transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(350px);
 }.div_carrosel figure:nth-child(2){
-    transform: rotateY(40deg) translateZ(300px);
+    transform: rotateY(40deg) translateZ(350px);
 }.div_carrosel figure:nth-child(3){
-    transform: rotateY(80deg) translateZ(300px);
+    transform: rotateY(80deg) translateZ(350px);
 }.div_carrosel figure:nth-child(4){
-    transform: rotateY(120deg) translateZ(300px);
+    transform: rotateY(120deg) translateZ(350px);
 }.div_carrosel figure:nth-child(5){
-    transform: rotateY(160deg) translateZ(300px);
+    transform: rotateY(160deg) translateZ(350px);
 }.div_carrosel figure:nth-child(6){
-    transform: rotateY(200deg) translateZ(300px);
+    transform: rotateY(200deg) translateZ(350px);
 }
 
 
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
