@@ -26,10 +26,10 @@ if(cont<=1){
     let span2 = document.getElementById('span2')
     
    setTimeout(()=>{
-    span2.textContent = 'Backend'
+    span2.textContent = 'Full Stack'
     maquina_escrever('span2')
     cont++
-   },3800)
+   },2500)
 
 }
 
