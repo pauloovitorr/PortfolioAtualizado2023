@@ -235,6 +235,52 @@ main {
     padding: 10px;
 }
 
+
+.Tec_icone{
+    width: 250px;
+    height: 300px;
+    border: 2px solid rgb(11, 245, 23);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(17, 17, 17), #0b5d68, #171717);
+    margin-top: 30px;
+    margin: 15px 40px;
+}
+
+.Tec_icone:nth-child(4){
+    background-image: linear-gradient(90deg, rgb(17, 17, 17), #0b5d68, #171717);
+}.Tec_icone:nth-child(5){
+    background-image: linear-gradient(90deg, rgb(17, 17, 17), #0b5d68, #171717);
+}.Tec_icone:nth-child(6){
+    background-image: linear-gradient(90deg, rgb(17, 17, 17), #0b5d68, #171717);
+}.Tec_icone:nth-child(7){
+    background-image: linear-gradient(130deg, rgb(17, 17, 17), #0b5d68, #171717);
+}.Tec_icone:nth-child(8){
+    background-image: linear-gradient(130deg, rgb(17, 17, 17), #0b5d68, #171717);
+}.Tec_icone:nth-child(9){
+    background-image: linear-gradient(130deg, rgb(17, 17, 17), #0b5d68, #171717);
+}
+
+.inconeTec_imgg{
+    width: 42%;
+    text-align: center;
+}
+
+.inconeTec_imgg img{
+    width: 100%;
+    text-align: center;
+    transition: .8s;
+    
+}
+
+
+.inconeTec_imgg img:hover {
+    transform: rotateY(360deg);
+}
+
 .inconeTec_img{
     width: 15%;
     text-align: center;
@@ -243,6 +289,7 @@ main {
 .inconeTec_img img{
     border-radius: 8px;
     transition: .5s;
+    
 }
 
 .inconeTec_img img:hover {
@@ -254,6 +301,21 @@ main {
     width: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+}
+
+.inconeTec_texto{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.inconeTec_texto p{
+    color: rgb(11, 245, 23);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.inconeTec_textt p{
+    color: rgb(11, 245, 23);
 }
 
 .inconeTec_text span{
@@ -272,26 +334,34 @@ section {
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hidden {
     filter: blur(30px);
-    opacity: 0;
-    transition: all 1.5s;
+    display: none;
+    transition: all 2s;
     transform: translateX(-100%);
-    
+}
+
+.oculto{
+    filter: blur(30px);
+    opacity: 0;
+    transition: all 2s;
+    transform: translateX(-100%);
 }
 
 
 .show {
     opacity: 1;
     filter: blur(0);
-    transition: all 1.5s;
+    transition: all 2s;
     transform: translateX(0%);
 }
 
-.estudo h1 {
+.titulo_hab {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(11, 245, 23);
     text-align: center;
