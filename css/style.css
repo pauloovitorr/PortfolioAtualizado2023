@@ -242,7 +242,7 @@ main {
 
 
 .Tec_icone{
-    width: 250px;
+    width: 400px;
     height: 300px;
     border: 2px solid rgb(11, 245, 23);
     border-radius: 5px;
@@ -256,6 +256,7 @@ main {
     opacity: 0;
     filter: blur(50px);
     transition: all 2s;
+    padding-top: 10px;
 }
 
 .Tec_iconeON{
@@ -304,7 +305,7 @@ main {
 }
 
 .inconeTec_imgg{
-    width: 42%;
+    width: 80%;
     height: 100px;
     text-align: center;
     display: flex;
@@ -315,7 +316,7 @@ main {
     width: 100%;
     text-align: center;
     transition: .8s;
-    
+    border-radius: 10px;
 }
 
 
@@ -326,6 +327,7 @@ main {
 .inconeTec_img{
     width: 15%;
     text-align: center;
+    
 }
 
 .inconeTec_img img{
